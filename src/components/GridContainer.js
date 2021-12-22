@@ -19,43 +19,40 @@ export default function GridContainer(){
 
 //grid increments by 75
 
+return(
+        
+    <div id="gridContainer" className="gridContainer" >
+        <div className="horizon"></div>
+        <div id="grid">
+            {gridArray}
+        </div>
+    </div>)
+
+    
+    
+}
 
 
-const animateCellAbout=() => {
+// const animateCellAbout=() => {
    
-    setTimeout(()=>{
-       console.log('first')
-        gridArray[630]=<div className='testCell'></div>},500)
-   setTimeout(()=>{
-        gridArray[705]=<div className='testCell'></div>},1000)
-   setTimeout(()=>{
-        gridArray[780]=<div className='testCell'></div>},1500)
-   setTimeout(()=>{
-        gridArray[855]=<div className='testCell'></div>},2000)
-    console.log('clicked')                            
-   }
+//     setTimeout(()=>{
+//        console.log('first')
+//         gridArray[630]=<div className='testCell'></div>},500)
+//    setTimeout(()=>{
+//         gridArray[705]=<div className='testCell'></div>},1000)
+//    setTimeout(()=>{
+//         gridArray[780]=<div className='testCell'></div>},1500)
+//    setTimeout(()=>{
+//         gridArray[855]=<div className='testCell'></div>},2000)
+//     console.log('clicked')                            
+//    }
 
     
      
 
-const animateCellProjects=() => {
-    console.log('clicked2')
-    setCellColor('cellProjects')
-}
+// const animateCellProjects=() => {
+//     console.log('clicked2')
+//     setCellColor('cellProjects')
+// }
 
 
-    return(
-        
-        <div id="gridContainer" className="gridContainer" >
-            <button onClick={animateCellAbout}>about</button>
-            <button onClick={animateCellProjects}>projects</button>
-
-            <div className="horizon">horizon</div>
-            <div id="grid">
-                {gridArray}
-            </div>
-        </div>)
-
-        
-        
-}
