@@ -207,7 +207,7 @@ body {
 display:grid;
 min-width: 90%;
 background-color: rgba(0, 5, 0, 0.712);
-grid-template-columns: repeat(5, 1fr);
+grid-template-columns: repeat(2, 1fr);
 grid-gap:10px;
 }
 
