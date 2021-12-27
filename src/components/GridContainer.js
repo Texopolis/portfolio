@@ -3,19 +3,19 @@ import React, { useState } from "react"
 
 
 
-export default function GridContainer(){
-    const [cellColor, setCellColor] = useState('cell')
-    const gridArray = new Array(2000).fill(<div className='cell'></div>);
+export default function GridContainer(props){
+    // const [cellColor, setCellColor] = useState('cell')
+    const gridArray = new Array(2000).fill(<div className={props.cellColor}></div>);
 
-    gridArray[480]=<div className={cellColor}></div>
-    gridArray[555]=<div className={cellColor}></div>
-    gridArray[630]=<div className={cellColor}></div>
-    gridArray[705]=<div className={cellColor}></div>
-    gridArray[780]=<div className={cellColor}></div>
-    gridArray[855]=<div className={cellColor}></div>
-    gridArray[930]=<div className={cellColor}></div>
-    gridArray[1005]=<div className={cellColor}></div>
-    gridArray[1080]=<div className={cellColor}></div>
+    // gridArray[480]=<div className={cellColor}></div>
+    // gridArray[555]=<div className={cellColor}></div>
+    // gridArray[630]=<div className={cellColor}></div>
+    // gridArray[705]=<div className={cellColor}></div>
+    // gridArray[780]=<div className={cellColor}></div>
+    // gridArray[855]=<div className={cellColor}></div>
+    // gridArray[930]=<div className={cellColor}></div>
+    // gridArray[1005]=<div className={cellColor}></div>
+    // gridArray[1080]=<div className={cellColor}></div>
 
 //grid increments by 75
 

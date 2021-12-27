@@ -6,18 +6,18 @@
 
 body {
   background-color: black;
+  
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.mainContainer {
-  /* background-color: rgba(102, 9, 252, 0.199); */
+/* .mainContainer {
   color: white;
   width: 70%;
   margin:0 auto;
   height: 100%;
-}
+} */
 
 
 .gridContainer {
@@ -85,6 +85,13 @@ body {
   border: .5px solid #c300ff;
 }
 
+.cellProject{
+  background: black;
+  color: black;
+  border: .5px solid #fc2e9f;
+
+}
+
 /*COLUM OF CELLS*/
 /* .cell:nth-child(75n+24){
   background-color: #0096ff;
@@ -139,6 +146,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width:85vw;
+  margin:0 auto;
+  /* border:1px solid red; */
 }
 
 .major{
@@ -188,6 +198,8 @@ body {
   display:flex;
   flex-direction: column;
   text-align: center;
+  width: 100%;
+  border:1px solid red;
 }
 
 .techStackTitle{
@@ -205,10 +217,14 @@ body {
 
 .techStackGrid{
 display:grid;
-min-width: 90%;
+text-align: center;
+
+/* min-width: 90%; */
 background-color: rgba(0, 5, 0, 0.712);
-grid-template-columns: repeat(2, 1fr);
-grid-gap:10px;
+/* grid-template-columns: repeat(4, 1fr); */
+grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+/* grid-gap:10px; */
+justify-content: center;
 }
 
 .techCell{
@@ -218,7 +234,7 @@ grid-gap:10px;
   background-position: center;
   background-size:cover;
   padding:.5em;
-  /* border:solid 1px white; */
+  border:solid 1px white;
 }
 
 .htmlIcon {
@@ -251,6 +267,30 @@ grid-gap:10px;
 /*PROJECTS*/
 .projects{
   min-height:100vh;
+  padding:0;
+  width:100%;
+  margin:0;
+  background-color:rgba(17, 12, 66, 0.966);
+  background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);  /* border:1px solid white; */
+  display:flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#svgTop{
+  width:100vw;
+  margin:0;
+  padding:0;
+  transform:translateY(1em);
+  /* border:1px solid white; */
+}
+#svgBottom{
+  width:100vw;
+  margin:0;
+  padding:0;
+  transform:translateY(-1em);
+
 }
 
 .projectGrid{
@@ -260,11 +300,15 @@ grid-gap:10px;
   grid-template-rows: repeat(auto-fit, 12, 1fr);
   grid-gap:5px;
   grid-auto-flow: row; */
-  height:75vh;
-  background-color:#0ff;
+  height:80vh;
+  width:85vw;
+  margin:0 auto;
+
+  /* background-color:#0ff; */
   display:grid;
   grid-template-columns: repeat(auto-fit, 6, 1fr);
-  grid-gap:5px;
+  
+  grid-gap:25px;
   grid-auto-flow: dense;
 }
 
@@ -272,27 +316,54 @@ grid-gap:10px;
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color:#006aff;
+  background-color:#072857;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  border-radius: 1em;
+  filter:drop-shadow(5px 4px 4px #a2a2f8)
+}
+
+  
+
+
+.projectTitle{
+  text-decoration: none;
+  font-family: 'Major Mono Display', monospace;
+  color: #fff;
+  font-size: 2em;
+  /* text-shadow:
+      0 0 5px #fff,
+      0 0 8px #fff,
+      0 0 15px #fff,
+      0 0 40px #0ff,
+      0 0 50px #0ff,
+      0 0 60px #0ff; */
 }
 
 .web3PassGen{
   grid-row:span 8;
   grid-column:span 4;
+  background-image: url('./images/web3thumb2.png');
 }
 
 .web2PassGen{
   grid-row: span 9;
   grid-column: span 2;
+  background-image: url('./images/web2thumb.png')
 }
 
 .pacman{
   grid-row: span 7;
   grid-column: span 2;
+  background-image: url('./images/pacman.png')
 }
 
 .troutCounter{
   grid-row: span 6;
   grid-column: span 3;
+  background-image: url('./images/troutCounterThumb.png')
 }
 
 .hackathonContributions{
@@ -301,10 +372,19 @@ grid-gap:10px;
 
 }
 
+.glow{
+  -webkit-box-shadow:0px 0px 30px 17px rgba(210, 250, 239, 0.75);
+  -moz-box-shadow: 0px 0px 30px 17px rgba(210, 250, 239, 0.75);
+  box-shadow: 0px 0px 30px 17px rgba(210, 250, 239, 0.75);
+  transform: scale(1.05);
+  background-image:none;
+  background-color: rgba(12, 12, 12, 0.856);
+  }
 
 /*CONTACT*/
 .contact{
   min-height:100vh;
+  color:white;
 }
 
 .fira{
