@@ -1,13 +1,13 @@
 import React from 'react';
 import GridContainer from '../components/GridContainer'
+import ProjectTemplate from '../components/projectTemplate'
 
-export default function Web2PassGen(){
+
+export default function Web2passgen(){
     return (
         <>
-            <GridContainer />
-            <h2 className='major'>web2PassGen</h2>
+            <GridContainer cellColor='cellProject'/>
+            <ProjectTemplate />
         </>
     )
-
-
 }

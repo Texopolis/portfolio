@@ -45,7 +45,13 @@ export default function Projects(){
                     onMouseLeave={mouseLeave}>
                     <label for={'troutCounter'}>trout Counter</label>
                 </Link>
-                <div className="projectItem hackathonContributions"></div>
+                <Link to='miscProjects'
+                    className="projectItem miscProjects"
+                    id={'miscProjects'}
+                    onMouseOver={mouseEnter}
+                    onMouseLeave={mouseLeave}>
+                    <label for={'miscProjects'}>misc and ongoing</label>
+                </Link>
             </div>
 
         </div>

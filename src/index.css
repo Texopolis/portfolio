@@ -88,7 +88,7 @@ body {
 .cellProject{
   background: black;
   color: black;
-  border: .5px solid #fc2e9f;
+  border: .5px solid #0084ff;
 
 }
 
@@ -168,8 +168,8 @@ body {
 }
 .homePageTag > div > img{
   height:3.5em;
-  /* background-color:none; */
-  /* box-shadow: 0px 0px 40px 20px #f011ce; */
+  -webkit-filter: drop-shadow(0px 0px 15px #f011ce);
+  filter: drop-shadow(0px 0px 25px #f011ce);
 }
 
 
@@ -181,7 +181,7 @@ body {
   font-family: 'Bungee Outline', cursive;
   font-weight: bold;
   font-size: 2.7em;
-
+  /* text-shadow: 1px 1px white; */
 }
 
 .major{
@@ -285,9 +285,10 @@ body {
 }
 
 label{
-  color:black;
+  color:rgb(255, 255, 255);
   font-family: 'Orbitron', sans-serif;
-  font-size: .75em;
+  font-size: 1em;
+  text-shadow: 2px 2px 2px black;
   text-transform:uppercase;
   font-weight: bold;
   position: absolute;
@@ -325,9 +326,10 @@ label{
   background-image: url('./images/troutCounterThumb.png')
 }
 
-.hackathonContributions{
+.miscProjects{
   /* grid-row: span 1;
   grid-column: span 1; */
+  background-image: url('./images/miscBackground.png')
 
 }
 
@@ -338,6 +340,89 @@ label{
   transform: scale(1.05);
   filter:none;
   }
+
+#backBtn{
+  background-image: url('./images/backIcon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:5em;
+  height:5em;
+  position:absolute;
+  top:15%;
+  left: 15%;
+  /* border:solid 3px red; */
+  z-index:2;
+}
+
+#backBtn:hover{
+  cursor: pointer;
+}
+
+.projectTemplate{
+  margin:1em auto;
+  min-height: 95vh;
+  width:65vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5em;
+  background: rgba(252, 249, 249, 0.24);
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) 
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  position:relative;
+}
+
+.projectTemplateLeft{
+  display:flex;
+  flex-direction: column;
+  width:80%;
+  align-items:flex-end;
+  text-align: right;
+  padding:.5em;
+}
+
+.projectTemplateRight{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  text-align: left;
+  padding:.5em;
+}
+
+.projectTemplateTitle{
+  color:white;
+  font-size: 2em;
+  margin-bottom:.5em;
+}
+
+.projectTemplateDescription{
+  color:white;
+  font-family: 'Fira Code', monospace;
+  line-height: 1.5em;
+}
+
+.projectTemplateWorkingSiteLink{
+  font-size: 2em;
+  font-family: 'Orbitron', sans-serif;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px #ffd04c;
+  color:#ff00d9;
+  margin-bottom: 1em;
+}
+
+.projectTemplateCodeLink{
+  font-size: 2em;
+  font-family: 'Orbitron', sans-serif;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px #ffd04c;
+  color:#ff00d9;
+  margin-top: 1em;
+  /* color:inherit; */
+}
+
+
 
 /*CONTACT*/
 .contact{
