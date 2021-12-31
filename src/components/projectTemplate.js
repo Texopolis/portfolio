@@ -12,12 +12,19 @@ const navigate=useNavigate()
         <div className="projectTemplate">
             <div className="projectTemplateLeft">
                 <h2 className="projectTemplateTitle major">{props.projectTemplateTitle}</h2>
-                <p className="projectTemplateDescription">{props.projectTemplateDescription}</p>
+                <p className="projectTemplateDescription">{props.projectTemplateDescription}
+                    <div className='projectTemplateTechGrid'>
+                        <div className={props.htmlIcon}></div>
+                        <div className={props.cssIcon}></div>
+                        <div className={props.javaScriptIcon}></div>
+                        <div className={props.reactIcon}></div>
+                        <div className={props.solidityIcon}></div>
+                    </div>
+                </p>
             </div>
             <div className="projectTemplateRight">
-                <a className="projectTemplateWorkingSiteLink" href={props.projectTemplateWorkingSiteLink}>live site</a>
                 <a className='projectTemplateCodeLink' href={props.projectTemplateCodeLink}>code</a> 
-                <div className='projectTemplateTechGrid'></div>
+                <a className="projectTemplateWorkingSiteLink" href={props.projectTemplateWorkingSiteLink}>live site</a>
             </div>
         </div>
     </>
