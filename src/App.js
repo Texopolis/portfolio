@@ -5,6 +5,7 @@ import Web3 from './pages/web3passgen'
 import Web2 from './pages/web2passgen'
 import Pacman from './pages/pacman'
 import TroutCounter from './pages/troutCounter'
+import ApiDashboard from './pages/apiDashboard'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='web2' element={ <Web2/> } />
         <Route path='pacman' element={ <Pacman/> } />
         <Route path='troutCounter' element={ <TroutCounter/> } />
+        <Route path='apiDashboard' element={ <ApiDashboard/> } />
       </Routes>
     </>
   );

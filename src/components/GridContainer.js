@@ -26,6 +26,7 @@ return(
         <div id="grid">
             {gridArray}
         </div>
+        {/* <div id='gridSun'></div> */}
     </div>)
 
     

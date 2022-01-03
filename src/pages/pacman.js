@@ -9,7 +9,9 @@ export default function Pacman(){
             <GridContainer cellColor='cellProject'/>
             <ProjectTemplate
             projectTemplateTitle='pacman clone'
-            projectTemplateDescription="description"
+            projectTemplateRole='designer/devloper'
+            projectTemplateDescription="A clone of the 1980 action video game hit Pacman. This was one of the first video games I ever experienced- and this is my attempt to replicate it using JavaScript and CSS. "
+            projectNotes='This site is not optimized for mobile'
             projectTemplateWorkingSiteLink='https://texopolis.github.io/pacman/'
             projectTemplateCodeLink='https://github.com/Texopolis/pacman'
             htmlIcon='htmlIcon icon'

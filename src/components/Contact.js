@@ -23,7 +23,7 @@ export default function Contact(){
     }
 
     return(
-        <div className="contact">
+        <div className="contact" id='contact'>
             <h2 className='contactTitle'>contact</h2>
             <div className='contactGroup'>
                 <a href="mailto:0douglasbernstein@gmail.com"
