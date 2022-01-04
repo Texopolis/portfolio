@@ -112,79 +112,75 @@ body {
 
 /*NAVIGATION*/
 
-.navBar {
-  /* font-family: 'Fira Code', monospace; */
-  /* color: #ffc843; */
-  /* font-size: 3em; */
-  /* border:solid 1px white; */
-  /* background-color: rgba(235, 11, 11, 0.842); */
-}
 
-#menuIcon{
-  width: 5.5em;
+.menuIconOpen{
+  width: 3em;
   height: 3em;
-  background-image:url('./images/menuIcon.png');
+  background-image:url('./images/menuIconOpen.png');
   background-repeat:no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-color: red; */
-  /* border:1px solid red; */
   position: absolute;
   top:3.5em;
   right:10%;
   z-index: 1;
 }
 
-#menuIcon:hover{
+.menuIconClosed{
+  width: 1.5em;
+  height: 3em;
+  background-image:url('./images/menuIconClosed.png');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top:3.5em;
+  right:10%;
+  z-index: 1;
+}
+
+
+.menuIconClosed:hover{
   cursor: pointer;
 }
 
 .navList{
   position:absolute;
-  top:3.5em;
-  left: 50%;
-  /* background-color: red; */
-  transform: translate(-50%, 0);
   display:flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 60vw;
+  width: 40vw;
   text-align: center;
-  /* justify-content: center; */
+  justify-content:space-between;
   align-items:center;
-  border:1px solid white;
   z-index: 2;
+  opacity: 1;
+  animation: navEnter 200ms ease-in 1 normal forwards;
 }
 
-.navListDisplayed{
-  /* position:absolute;
-  top:3.5em;
-  left: 50%;
-  transform: translate(-50%, 0);
-  display:flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 60vw;
-  justify-content: space-between;
-  align-items:center;
-  z-index: 2; */
-  animation: displayMenu 1500ms ease-in-out normal forwards;
-}
-
-@keyframes displayMenu {
-  100% { top:3.5em;
+@keyframes navEnter{
+  0%{
+    opacity: 0;
+    top:3.5em;
+    left: 85%;
+    transform: translate(-50%, 0);
+  }
+  100%{
+    top:3.5em;
     left: 50%;
     transform: translate(-50%, 0);
-   }
+    opacity: 1;
+  }
 }
 
 .navLink{
   color: #ffffffbe;
-  border:solid 2px orange;
+  /* border:solid 2px orange; */
+  margin:0 1em;
   font-family: 'Press Start 2P', cursive;
   text-decoration: none;
   text-transform: uppercase;
-  font-size:1.5em;
+  font-size:1em;
   flex:1;
   background: linear-gradient(to bottom, #ff0080, #f700ff, #ea00ff, #a651ff, #7c85ff,  #41dfff, #5ffbf1, yellow, yellow, yellow);
   -webkit-background-clip: text;
@@ -198,6 +194,17 @@ body {
 
 .navLink:hover{
   cursor: pointer;
+}
+
+.navLinkHighlight{
+  /* border: 1px solid white; */
+  border-radius:.5em;
+  -webkit-box-shadow:0px 0px 30px 4px rgba(255, 255, 255, 0.192);
+  -moz-box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, .192);
+  box-shadow: 0px 0px 30px 4px rgba(4, 108, 245, 0.534);
+  transform: scale(1.05);
+  filter:none;
+  /* filter: drop-shadow(30px 10px 4px white);} */
 }
 
 /*HOMEPAGE*/
@@ -287,9 +294,10 @@ body {
 
 /*ABOUT*/
 .about{
-  min-height:100vh;
+  min-height:125vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-image: url(./images/cloudsBackground.png);
   background-color:rgba(255, 255, 255, 0.253);
   background-position: center;
@@ -297,10 +305,28 @@ body {
   margin-top:0;
 }
 
+.aboutContainer{
+  /* display: flex;
+  flex:1; */
+  width:80%;
+}
+.portrait{
+  float:right;
+  width:10em;
+  height:14.5em;
+  background-image:url(./images/portrait7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:2em;
+  margin:1em;
+  }
+
 .aboutText{
-  text-align: center;
+  /* text-align: center; */
   font-family: monospace;
   text-transform: uppercase;
+  word-wrap: wrap;
   font-size:1.5em;
   font-weight:800;
   line-height:1.8em;
@@ -325,7 +351,7 @@ body {
   width:100vw;
   margin:0;
   padding:0;
-  transform:translateY(.3em);
+  transform:translateY(.5em);
 }
 #svgBottom{
   width:100vw;
@@ -624,7 +650,7 @@ background-image: url('./images/solidityIcon.png')
   background-image:none !important;
 }
 
-.contactPhone{
+.contactResume{
   font-family: 'Press Start 2P', cursive;
   background-image:none !important;
 }
