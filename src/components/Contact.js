@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Email from '../images/email.png';
-import Phone from '../images/phone.png';
+import Resume from '../images/resumeIcon.png';
 import Github from '../images/github.png';
 import LinkedIn from '../images/linkedin.png';
 
@@ -33,12 +33,6 @@ export default function Contact(){
                     <img className='contactIcon' src={Email}/>
                     <h3 className='contactEmail'>{emailText}</h3>
                 </a>
-                <div className="phoneGroup contactElement"
-                onMouseOver={mouseEnter}
-                onMouseLeave={mouseLeave}>
-                    <img className='contactIcon' src={Phone}/>
-                    <h3 className='contactPhone'>415.430.5430</h3>
-                </div>
                 <a href='https://www.linkedin.com/in/texopolis/'
                 className="linkedinGroup contactElement"
                 onMouseOver={mouseEnter}
@@ -52,6 +46,13 @@ export default function Contact(){
                 onMouseLeave={mouseLeave}>
                     <img className='contactIcon' src={Github}/>
                     <h3 className='contactGithub'>github</h3>
+                </a>
+                <a href='#'
+                className="resume Group contactElement"
+                onMouseOver={mouseEnter}
+                onMouseLeave={mouseLeave}>
+                    <img className='contactIcon' src={Resume}/>
+                    <h3 className='contactResume'>resume</h3>
                 </a>
 
             </div>
