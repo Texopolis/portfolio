@@ -14,13 +14,6 @@ body {
   position: relative;
 }
 
-/* .mainContainer {
-  color: white;
-  width: 70%;
-  margin:0 auto;
-  height: 100%;
-} */
-
 
 .gridContainer {
   z-index: -2;
@@ -258,8 +251,9 @@ body {
 
 @media screen and (max-width: 750px){
   .homePageTag{
-    bottom:-8%;
+    bottom:-10%;
     transform: scale(75%);
+    /* margin-bottom:.5em; */
   }
 }
 
@@ -411,7 +405,7 @@ body {
   margin:0 auto;
   padding:3em;
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
   grid-gap:4em;
   /* grid-auto-flow: dense; */
   /* border:1px solid white; */
