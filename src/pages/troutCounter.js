@@ -21,7 +21,6 @@ const text= <p>Using contacts from my previous career as a chef, I collaborated 
             <ProjectTemplate
             projectTemplateTitle='trout counter'
             projectTemplateRole='devloper'
-            projectTemplateRole='designer devloper'
             projectTemplateDescription= {text}
             projectTemplateWorkingSiteLink='https://mcfarlandsprings.com/'
             projectTemplateCodeLink='https://github.com/Texopolis/McFarland-Springs-counter-component'

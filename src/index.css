@@ -8,6 +8,7 @@ body {
   background-color: black;
   
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -303,12 +304,15 @@ body {
   background-position: center;
   background-size:cover;
   margin-top:0;
+  /* border:5px solid rgb(0, 255, 42); */
 }
 
 .aboutContainer{
-  /* display: flex;
-  flex:1; */
+  display: flex;
   width:80%;
+  flex-direction: column;
+  padding-top:5em;
+  padding-bottom:5em;
 }
 .portrait{
   float:right;
@@ -320,12 +324,31 @@ body {
   background-size: cover;
   border-radius:2em;
   margin:1em;
+  filter:drop-shadow(4px 4px 8px rgb(255, 0, 242));
   }
 
+  .aboutSection{
+    /* border:1px solid black; */
+    padding:.5em;
+  }
+
+.aboutTextTitle{
+  /* display:none; */
+  font-family: 'Shadows Into Light', cursive;
+  text-shadow: 0 1px 2px rgb(255, 0, 242);
+  font-size: 4.5em;
+  transform:translateY(-.5em) rotate(-5deg);
+  margin-bottom:.25em;
+  /* margin:0 auto; */
+  /* border:1px solid red; */
+}
+
 .aboutText{
+  /* border:1px solid red; */
+
   /* text-align: center; */
   font-family: monospace;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   word-wrap: wrap;
   font-size:1.5em;
   font-weight:800;
@@ -338,12 +361,12 @@ body {
   min-height:100vh;
   padding:0;
   width:100%;
-  margin:0, auto;
+  margin:0 auto;
   background-color:rgba(17, 12, 66, 0.966);
-  background-image: linear-gradient(to bottom, #c300ff, #a651ff, #8d70ff, #7c85ff, #7896fb, #68a5fe, #63b3fc, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-  /* border:1px solid white; */
+  /* background-image: linear-gradient(to bottom, #c300ff, #a651ff, #8d70ff, #7c85ff, #7896fb, #68a5fe, #63b3fc, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+  background-image: linear-gradient(to bottom, #2302ff, #0068ff, #0096ff, #00bbff, #00daff, #00e8f9, #00f4e9, #0fffd0, #4cffae, #7eff85, #adff55, #deff00);  
   display:flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -372,7 +395,7 @@ body {
   height:100%;
   width:70vw;
   margin:0 auto;
-  padding:2em;
+  padding:3em;
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap:4em;

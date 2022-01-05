@@ -25,8 +25,8 @@ const navigate=useNavigate()
                 </p>
             </div>
             <div className="projectTemplateRight">
-                <a className='projectTemplateCodeLink' href={props.projectTemplateCodeLink}>code</a> 
-                <a className="projectTemplateWorkingSiteLink" href={props.projectTemplateWorkingSiteLink}>live site</a>
+                <a className='projectTemplateCodeLink' href={props.projectTemplateCodeLink} target='_blank'>code</a> 
+                <a className="projectTemplateWorkingSiteLink" href={props.projectTemplateWorkingSiteLink} target='_blank'>live site</a>
             </div>
         </div>
     </>
