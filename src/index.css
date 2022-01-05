@@ -254,7 +254,13 @@ body {
   position:absolute;
   bottom:1%;
   /* border:1px solid white; */
-  
+}
+
+@media screen and (max-width: 750px){
+  .homePageTag{
+    bottom:-8%;
+    transform: scale(75%);
+  }
 }
 
 .homePageTag > div{
@@ -354,6 +360,14 @@ body {
   font-weight:800;
   line-height:1.8em;
   color:black;
+}
+
+@media screen and (max-width: 750px){
+  .portrait{
+    width:7em;
+    height:10em;
+  
+  }
 }
 
 /*PROJECTS*/
@@ -490,7 +504,7 @@ label{
   height:5em;
   position:absolute;
   top:8%;
-  left: 15%;
+  left: 6%;
   /* border:solid 3px red; */
   z-index:2;
 }
@@ -536,6 +550,27 @@ label{
   background-color:rgb(53, 29, 50);
 
 }
+
+@media screen and (max-width: 750px){
+  .projectTemplate{
+    width:100%;
+    min-height:100vh;
+    margin:0 auto;
+
+  }
+  #backBtn{
+    top:2%;
+    left:5%;
+    width:3em;
+    height:3em;
+  
+  }
+  .projectTemplateRight{
+    flex-direction: column;
+  }
+
+}
+
 
 .projectTemplateTitle{
   color:white;
