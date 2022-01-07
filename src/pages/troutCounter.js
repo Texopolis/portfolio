@@ -12,7 +12,7 @@ const wackypuppyLink=<a id='wackyPuppLink' href='https://www.wackypuppy.com/'>Wa
 // }
 // console.log(wackypuppyLink)
 
-const text= <p>Using contacts from my previous career as a chef, I collaborated with {wackypuppyLink} as they were launcing a website for the trout that is produced by my former employer. I was tasked to create a component in JavaScript that updates in realtime the current number of wild fish that have been saved from becoming fish food by using an all vegetarian feed. The site is now live with my counter active in the 'Protecting Our Oceans' section.</p>
+const text= <p>I collaborated with {wackypuppyLink} as they were launcing a website for the trout farm that is operated by my former employer. I was tasked to create a component in JavaScript that updates in realtime the current number of wild fish that have been saved from becoming fish food by using an all vegetarian feed. The site is now live with the counter active in the 'Protecting Our Oceans' section.</p>
 
 
     return (

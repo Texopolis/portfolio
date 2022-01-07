@@ -31,19 +31,19 @@ export default function Projects(){
                     onMouseLeave={mouseLeave}>
                     <label for={'web2PassGen'}>web2 password generator</label>
                 </Link>
-                <Link to='pacman'
-                    className="projectItem pacman"
-                    id={'pacman'}
-                    onMouseOver={mouseEnter}
-                    onMouseLeave={mouseLeave}>
-                    <label for={'pacman'}>pacman clone</label>
-                </Link>
                 <Link to='troutCounter'
                     className="projectItem troutCounter"
                     id={'troutCounter'}
                     onMouseOver={mouseEnter}
                     onMouseLeave={mouseLeave}>
                     <label for={'troutCounter'}>trout Counter</label>
+                </Link>
+                <Link to='pacman'
+                    className="projectItem pacman"
+                    id={'pacman'}
+                    onMouseOver={mouseEnter}
+                    onMouseLeave={mouseLeave}>
+                    <label for={'pacman'}>pacman clone</label>
                 </Link>
                 <Link to='apiDashboard'
                     className="projectItem apiDashboard"
