@@ -9,7 +9,7 @@ export default function Web2passgen(){
             <GridContainer cellColor='cellProject'/>
             <ProjectTemplate
                 projectTemplateTitle='web2 Password Generator'
-                projectTemplateRole='designer/devloper'
+                projectTemplateRole='designer/developer'
                 projectTemplateDescription='A fast and straightforward password generator that allows users to enter custom inputs for desired length and number of different characters. This project became the precursor to the Web3 password generator with the random logic I wrote being replaced by the Chainlink VRF.'
                 projectNotes='This site uses the method .at() which is not currently supported on Safari or Internet Explorer.' 
                 projectTemplateWorkingSiteLink='https://texopolis.github.io/passwordGenerator/'

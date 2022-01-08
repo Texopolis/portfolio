@@ -12,7 +12,7 @@ export default function Web3PassGen(){
             <GridContainer cellColor='cellProject'/>
             <ProjectTemplate 
                 projectTemplateTitle='web3 Password Generator'
-                projectTemplateRole='designer/devloper'
+                projectTemplateRole='designer/developer'
                 projectTemplateDescription={description}
                 projectTemplateWorkingSiteLink='https://web3passgenerator.netlify.app/'
                 projectTemplateCodeLink='https://github.com/Texopolis/passgen'

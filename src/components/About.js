@@ -11,7 +11,7 @@ export default function About(){
                      <h2 className='aboutText'>
                          My name is Douglas Bernstein and I'm a technophile child of the 80s, accomplished chef and having traded knives for keyboards, I now develop interactive, responsive and purposeful websites and applications.<br/>
                          <br/>
-                         By building on the experience that has brought me success leading teams for the last 20 years, I've learned the same set of problem solving skills necessary to running successful restaurants translates directly to solving problems in code. Recipes become algorithims and although the language is different, the logic is the same. <br/>
+                         By building on the experience that has brought me success leading teams for the last 20 years, I've learned the same set of problem solving skills necessary to running successful restaurants translates directly to solving problems in code. Recipes become algorithms and although the language is different, the logic is the same. <br/>
                          <br/>
                          My strong attention to detail and ability to thrive under pressure has enabled me to swiftly develop on new technologies. The innate sense of wanting to create is satiated each time I deploy something new.<br/>
                          <br/>
