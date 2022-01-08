@@ -4,7 +4,7 @@ import ProjectTemplate from '../components/projectTemplate'
 
 
 export default function TroutCounter(){
-const wackypuppyLink=<a id='wackyPuppLink' href='https://www.wackypuppy.com/'>Wackypuppy</a> 
+const wackypuppyLink=<a id='wackyPuppLink' href='https://www.wackypuppy.com/' target="_blank">Wackypuppy</a> 
 
 /* <a href="https://github.com/">wackypuppy</a> */
 // const goToWP=()=> {
