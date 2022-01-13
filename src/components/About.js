@@ -13,7 +13,7 @@ export default function About(){
                          <br/>
                          By building on the experience that has brought me success leading teams for the last 20 years, I've learned the same set of problem solving skills necessary to running successful restaurants translates directly to solving problems in code. Recipes become algorithms and although the language is different, the logic is the same. <br/>
                          <br/>
-                         My strong attention to detail and ability to thrive under pressure has enabled me to swiftly develop on new technologies. The innate sense of wanting to create is satiated each time I deploy something new.<br/>
+                         If you have any questions or comments about the projects featured here, please feel free to reach out- I'd love to hear from you!<br/>
                          <br/>
                          I currently reside in Berkeley, CA and my free time is consumed with furniture woodworking projects (anything that involves building with my hands), gardening and walking my spaghetti obsessed dog.
                      </h2>

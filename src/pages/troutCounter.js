@@ -27,6 +27,9 @@ const text= <p>I collaborated with {wackypuppyLink} as they were launching a web
             htmlIcon='htmlIcon icon'
             cssIcon='cssIcon icon'
             javaScriptIcon='javaScriptIcon icon '
+            ProjectTemplateVideoText=''
+            projectTemplateVideoLink='null'
+
             />
         </>
     )

@@ -17,6 +17,8 @@ export default function Web2passgen(){
                 htmlIcon='htmlIcon icon'
                 cssIcon='cssIcon icon'
                 javaScriptIcon='javaScriptIcon icon '
+                ProjectTemplateVideoText=''
+                projectTemplateVideoLink='null'
             />
         </>
     )

@@ -534,14 +534,24 @@ label{
 
 .projectTemplateRight{
   display:flex;
+  /* flex:1; */
   width:80%;
-  justify-content: space-between;
+  justify-content: space-evenly;
   /* align-items:center; */
   /* flex-direction: column; */
   align-items:center;
   /* text-align: left; */
   padding:.5em;
   background-color:rgb(53, 29, 50);
+  border-radius:.5em;
+
+}
+
+@media screen and (max-width: 950px){
+  .projectTemplateRight{
+    flex-direction: column;
+  }
+
 
 }
 
@@ -558,9 +568,6 @@ label{
     width:3em;
     height:3em;
   
-  }
-  .projectTemplateRight{
-    flex-direction: column;
   }
 
 }
@@ -603,6 +610,18 @@ label{
   font-weight: bold;
   font-size: 2.7em;
   /* margin-bottom: 1em; */
+}
+
+.projectTemplateVideoLink{
+  background: linear-gradient(to bottom, #c300ff, #a651ff, #8d70ff, #7c85ff, #7896fb, #68a5fe, #63b3fc, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  -webkit-background-clip: text;
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Bungee Outline', cursive;
+  font-weight: bold;
+  font-size: 2.7em;
+  margin-left:1em;
+  margin-right:1em;
 }
 
 .projectTemplateCodeLink{
@@ -665,6 +684,33 @@ background-image: url('./images/solidityIcon.png')
   text-decoration: none;
   color:white;
   background-color: #ffffff18;
+}
+
+.videoPageContainer{
+  min-height:100vh;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+.videoContainer{
+  /* border:5px solid orange; */
+  width:60vw;
+  margin-top: 2em;
+  margin-bottom:2em;
+  /* height:100vh; */
+  
+}
+
+.videoDescription{
+  color:white;
+  font-family: 'Fira Code', monospace;
+  line-height: 1.5em;
+  background-color:rgba(53, 29, 50, 0.76);
+  padding:.75em;
+  border-radius:.5em;
+  width:90vw;
 }
 
 /*CONTACT*/
