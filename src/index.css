@@ -609,6 +609,7 @@ label{
   font-family: 'Bungee Outline', cursive;
   font-weight: bold;
   font-size: 2.7em;
+  text-decoration: none;
   /* margin-bottom: 1em; */
 }
 
@@ -622,6 +623,7 @@ label{
   font-size: 2.7em;
   margin-left:1em;
   margin-right:1em;
+  text-decoration: none;
 }
 
 .projectTemplateCodeLink{
@@ -639,6 +641,7 @@ label{
   font-family: 'Bungee Outline', cursive;
   font-weight: bold;
   font-size: 2.7em;
+  text-decoration: none;
   /* margin-top: 1em; */
 }
 
