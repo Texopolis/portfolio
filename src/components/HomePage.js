@@ -6,10 +6,14 @@ export default function HomePage(){
         <div className="homePage">
             <div className="container">
                 <p className='major'>hI i'm douGlas,</p>
-                <p className='major'>a FronTend Web develOper</p>
+                <p className='major'>a FronTend Web / bLockcHaIn develOper</p>
                 <div className='homePageDescriptionGroup'>
+                    <p className='homePageDescript'>Solidity</p>
                     <p className='homePageDescript'>react </p>
                     <p className='homePageDescript'>javaScript</p>
+                    <p className='homePageDescript'>Node.js</p>
+                    <p className='homePageDescript'>Express</p>
+                    <p className='homePageDescript'>mongodb</p>
                     <p className='homePageDescript'>HTML</p>
                     <p className='homePageDescript'>CSS</p>
                 </div>

@@ -7,6 +7,9 @@ import Pacman from './pages/pacman'
 import TroutCounter from './pages/troutCounter'
 import ApiDashboard from './pages/apiDashboard'
 import Web3Video from './pages/web3passgenvideo'
+import Web3VoteApp from './pages/web3VoteApp'
+import Web3VoteAppVideo from './pages/web3VoteAppVideo'
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
         <Route path='/troutCounter' element={ <TroutCounter/> } />
         <Route path='/apiDashboard' element={ <ApiDashboard/> } />
         <Route path='/web3Video' element={ <Web3Video/> } />
+        <Route path='/web3VoteApp' element={ <Web3VoteApp/> } />
+        <Route path='/web3VoteAppVideo' element={ <Web3VoteAppVideo/> } />
       </Routes>
     </>
   );

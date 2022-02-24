@@ -11,7 +11,7 @@ export default function About(){
                      <h2 className='aboutText'>
                          My name is Douglas Bernstein and I'm a technophile child of the 80s, accomplished chef and having traded knives for keyboards, I now develop interactive, responsive and purposeful websites and applications.<br/>
                          <br/>
-                         By building on the experience that has brought me success leading teams for the last 20 years, I've learned the same set of problem solving skills necessary to running successful restaurants translates directly to solving problems in code. Recipes become algorithms and although the language is different, the logic is the same. <br/>
+                         By building on experiences that have brought me success leading teams for the last 20 years, I love to formulate ideas and efficient solutions to complex problems while constructively contributing to teams. Presently my main interests are in developing blockchain applications that go beyond cryptocurrencies and expose the secure nature and flexibility of dApps.<br/>
                          <br/>
                          If you have any questions or comments about the projects featured here, please feel free to reach out- I'd love to hear from you!<br/>
                          <br/>

@@ -221,9 +221,10 @@ body {
 
 .homePageDescriptionGroup{
   display:flex;
-  /* width:60%; */
+  width:75%;
   /* background-color:green; */
   justify-content:space-between;
+  margin:0 auto;
   /* margin-top:1em; */
   color:rgb(255, 251, 0);
   flex-wrap: wrap;
@@ -453,6 +454,11 @@ label{
   /* background-image: linear-gradient(to right bottom, #ff0091, #da62dd, #9393ff, #36b5ff, #00ccff, #00daf5, #00e5e2, #44eec8, #70f5ae, #9dfa92, #cbfd76, #fbfb5f);  padding: .5em .5em .5em .5em; */
 
 }
+
+.web3VoteApp{
+  background-image: url('./images/web3voteappthumb.png');
+}
+
 
 .web3PassGen{
   background-image: url('./images/web3thumb2.png');
