@@ -6,7 +6,7 @@ export default function HomePage(){
         <div className="homePage">
             <div className="container">
                 <p className='major'>hI i'm douGlas,</p>
-                <p className='major'>a FronTend Web / bLockcHaIn develOper</p>
+                <p className='major'>a FronTend / bLockcHaIn develOper</p>
                 <div className='homePageDescriptionGroup'>
                     <p className='homePageDescript'>Solidity</p>
                     <p className='homePageDescript'>react </p>

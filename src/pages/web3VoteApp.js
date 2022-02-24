@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 export default function Web3PassGen(){
     
-    const description=<p>lorem ipsum dolor sit amet, consectetur adip</p>
+    const description=<p>Recently the security of elections in the United States has been called into question. In order to reinstate confidence in the process, I developed a blockchain voting dApp which accepts a single vote from an authorized address and returns an immutable voting talley. The vote talley cannot be altered and unauthorized accounts cannot record a vote.<br></br>In developing this dApp I first wrote a smart contract in Solidity, deployed it to the Kovan testnet, then developed a frontend for the end-user to interact with. The contract does contain code that disallows authorized users to submit more than one vote, but that logic has been commented out for demonstration purposes.</p>
     
     
     return (
