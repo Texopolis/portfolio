@@ -15,7 +15,7 @@ export default function web3VoteAppVideo(){
             <GridContainer cellColor='cellProject' />
 
             <div className='videoPageContainer'>
-                <h2 className="major">web3 Voting dApp</h2>
+                <h2 className="major">web3 election dApp</h2>
                 <div className='videoContainer'>
                     <video className=' video-js vjs-fill vjs-big-play-centered'
                     src={Web3Video}
