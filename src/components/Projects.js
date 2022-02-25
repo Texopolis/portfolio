@@ -22,7 +22,7 @@ export default function Projects(){
                     id={'web3VoteApp'}
                     onMouseOver={mouseEnter}
                     onMouseLeave={mouseLeave}>
-                    <label for={'web3VoteApp'} >web3 Voting dApp</label>
+                    <label for={'web3VoteApp'} >web3 election dApp</label>
                 </Link>
                 <Link to='Web3'
                     className={`projectItem web3PassGen`}
