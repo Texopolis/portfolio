@@ -3,7 +3,7 @@ import Email from '../images/email.png';
 import Resume from '../images/resumeIcon.png';
 import Github from '../images/github.png';
 import LinkedIn from '../images/linkedin.png';
-import DBResume from '../images/Douglas_Bernstein_-_Frontend__Blockchain_Developer.pdf'
+import DBResume from '../images/Douglas_Bernstein_-_Frontend_Developer.pdf'
 
 export default function Contact(){
 
