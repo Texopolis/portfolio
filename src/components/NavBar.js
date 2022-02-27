@@ -25,7 +25,7 @@ export default function NavBar(){
 
     return(
         <nav className="navBar">
-            {showMenuBtn && (
+            {/* {showMenuBtn && (
                 <div className={menuBtnClass?'menuIconClosed':'menuIconOpen'} onClick={btnClicked}>
                 </div>)}
             {showNavBar && (
@@ -43,7 +43,7 @@ export default function NavBar(){
                     </div>)}
             
             
-            
+             */}
         </nav>
     )
 

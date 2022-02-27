@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 export default function Web3PassGen(){
     
-    const description=<p>This project was developed using React and Solidity- additional tools used were Truffle, Ganache, ethers.js and Metamask. The election voting dApp will accept a single vote from an authorized address and return an immutable vote talley. The vote talley cannot be altered and unauthorized accounts cannot record a vote.<br></br>In developing this dApp I first wrote a smart contract in Solidity, deployed it to the Kovan testnet, then developed a frontend for the end-user to interact with. The contract does contain code that disallows authorized users to submit more than one vote, but that logic has been commented in development.</p>
+    const description=<p>This project was developed using React and Solidity- additional tools used were Truffle, Ganache, ethers.js and Metamask. The election voting dApp will accept a single vote from an authorized address and return an immutable vote talley. The vote talley cannot be altered and unauthorized accounts cannot record a vote.<br></br>In developing this dApp I first wrote a smart contract in Solidity, deployed it to the Kovan testnet, then developed a frontend for the end-user to interact with. The contract does contain code that disallows authorized users to submit more than one vote, but that logic has been commented out in development.</p>
     
     
     return (
